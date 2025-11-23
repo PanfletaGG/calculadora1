@@ -14,7 +14,6 @@ public class Main {
     private static int counter = 0;
     private static final Random random = new Random();
 
-    // En el codigo malo: public static String API_KEY = "NOT_SECRET_KEY";
     //  Aqui: private static final String apiKey -> constante privada y nombre en camelCase
     private static final String apiKey = "NOT_SECRET_KEY";
 
@@ -99,7 +98,6 @@ public class Main {
         }
 
         Scanner sc = new Scanner(System.in);
-        // en el anterior outer: while(true) con multiples continue boolean exit - flujo mas claro y mantenible
         boolean exit = false;
 
         while (!exit) {
